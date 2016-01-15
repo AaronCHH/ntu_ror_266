@@ -49,7 +49,7 @@
 6. 請把 hoemowrk1 程式碼裡的裡面的使用者輸入兩個數字的方式和輸贏的判斷式改寫成 method
   ### Ans:
   ```  
-  See https://github.com/AaronCHH/ntu_ror_266/blob/master/QUIZ/quiz1/Q06/homework1_v1_2.rb
+  See [GitHub](https://github.com/AaronCHH/ntu_ror_266/blob/master/QUIZ/quiz1/Q06/homework1_v1_2.rb)
   ``` 
 
 7. 以下這段程式碼：
