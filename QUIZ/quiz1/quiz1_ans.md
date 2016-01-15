@@ -18,12 +18,12 @@
   #### Ans:
   ```  
   puts str1 + str2 => 耗記憶體
-  puts "#{str1}#{str2}"  =>  字串內插
+  puts "#{str1}#{str2}"  =>  字串內插，較有效率
   ``` 
 3. 請解釋 array 和 hash 的不同處
   #### Ans:
   ```  
-  相對於array，hash的每一筆資料有相對應的key  
+  相對於array，hash的每一筆資料有相對應的key 
   ``` 
 
 4. 請寫一段 code 從 [1, "a string", 3.14, [1,2,3,4]] 這個陣列找出所有非字串的值
