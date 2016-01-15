@@ -19,7 +19,7 @@ https://guides.github.com/features/mastering-markdown/
 
 ## Git
 ### git
-https://github.com/yuyueugene84/ntu_ror_training_course/blob/master/learn_git.md
+https://github.com/yuyueugene84/ntu_ror_training_course/blob/master/learn_git.md<br>
 http://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/
 
 ## Linux
