@@ -1,4 +1,4 @@
-1. 請用簡單的方式敘述以下每一行程式碼：<br>
+1. 請用簡單的方式敘述以下每一行程式碼
 
   ```ruby 
   a = 1 
@@ -18,19 +18,19 @@
   user.name = "Joe" # 儲存字串"Joe"至物件變數name
   ```
 2. 什麼是 module? 請寫一段程式碼說明一個 class 要如何使用一個 module 裡面的 method?
-  ##Ans:
+  #### Ans:
   ```
   module為存放程式碼的區塊，使用時使用include關鍵字。
   ```
 3. 請說明 class variable 和 instance variable 之間的差別
-<br>
+
   #### Ans:
   ```
   instance variable(實例變數) 是綁定在 object 的資料
   class variable(類別變數) 是綁定 class 本身的資料
   ```
 4. 請說明 class method 和 instance method 之間的差別
-<br>
+
   #### Ans:
   ```
   instance method 需要由物件呼叫;
@@ -41,7 +41,7 @@
   User.new("Bob", "male", "Engineer")
   ```
 請寫出 User class 的 initialize method
-<br>
+
   #### Ans:
   ```
   class User
