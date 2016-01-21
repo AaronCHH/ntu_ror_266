@@ -37,6 +37,11 @@
       end
   end
   ```
+  #### Revised
+  ```
+  arr = [1, "a string", 3.14, [1,2,3,4]] 
+  arr.each {|x| puts "#{x}" if x.class != String}
+  ```
 
 5. 請列出兩種產出亂數的方法
   #### Ans:
