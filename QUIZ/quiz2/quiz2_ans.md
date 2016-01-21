@@ -19,7 +19,7 @@
   ```
 2. 什麼是 module? 請寫一段程式碼說明一個 class 要如何使用一個 module 裡面的 method?
 <br>
- #### Ans:
+ #### Ans:<br>
   ```
   module為存放程式碼的區塊，使用時使用include關鍵字。
   ```
