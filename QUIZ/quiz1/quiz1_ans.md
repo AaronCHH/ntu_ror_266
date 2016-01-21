@@ -38,7 +38,7 @@
   end
   ```
   #### Revised
-  ```
+  ``` ruby
   arr = [1, "a string", 3.14, [1,2,3,4]] 
   arr.each {|x| puts "#{x}" if x.class != String}
   ```
