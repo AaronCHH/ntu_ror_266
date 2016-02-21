@@ -149,14 +149,17 @@
     
     ```
     Ans.
-    ```  
+    ```
+    
     ### model files
+    
     ```ruby
     # group.rb
     class Group < ActiveRecord::Base        
         belongs_to:user
     end
     ```  
+    
     ```ruby
     # group_user.rb
     class GroupsUser < ActiveRecord::Base        
@@ -165,6 +168,7 @@
     ```      
     
     ### migration files
+    
     ```ruby
     # add_groups.rb
     class AddUsers < ActiveRecord::Migration
@@ -179,6 +183,7 @@
         end
     end
     ``` 
+    
     ```ruby
     # add_groups_users.rb
     class AddGroupsUsers < ActiveRecord::Migration
