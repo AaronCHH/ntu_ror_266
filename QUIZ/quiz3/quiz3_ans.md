@@ -141,8 +141,7 @@
         has_many :groups, through: :groups_users 
     end
     ```
-  
-  請寫出和這個 model 檔相關連的 model 檔，以及這些 model 檔所需要的資料庫欄位
+    請寫出和這個 model 檔相關連的 model 檔，以及這些 model 檔所需要的資料庫欄位
     ### Ans.  
     ### model files    
     ```ruby
