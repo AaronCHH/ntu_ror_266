@@ -1,6 +1,6 @@
 1. 請解釋 database.yml, routes.rb, 和 Gemifle 分別是什麼？ 他們分別在一個 Rails 專案裡的什麼位置？ 他們為什麼對一個 Rails 專案如此重要? 
 	## Ans.
-	```  
+	```
 	database.yml: 
     Rails 專案與 database 連結的設定檔
     development 是用於開發時的設定
@@ -18,7 +18,7 @@
 
 2. MVC 架構裡的 M, V, 和 C 分別代表什麼？
   ## Ans.
-  ```      
+  ```
     Model:封裝資料與商業邏輯，與資料庫裡的資料表對應
     View:使用者介面，顯示及編輯表單，可內嵌Ruby語法
     Controller:負責將資料送進送出Model，處理從外界(也就是瀏覽器)來的HTTP Request請求，與Model互動後輸出View(也就是HTML) 
@@ -26,8 +26,8 @@
 
 3. 請解釋 CRUD 是哪四個字的縮寫？
   ## Ans.  
-  ```      
-  CREATE - 新增資料
+  ```
+	CREATE - 新增資料
   READ - 讀取資料
   UPDATE - 編輯資料
   DELETE - 刪除資料
@@ -67,8 +67,8 @@
 		**description (text)**,
 		**members (integer)**
 				
-  * 請寫出一個能產生出以上需求的 migration 檔
-		
+	* 請寫出一個能產生出以上需求的 migration 檔  
+	---
 	## Ans.
 	```ruby
 	class AddGroupsTable < ActiveRecord::Migration
