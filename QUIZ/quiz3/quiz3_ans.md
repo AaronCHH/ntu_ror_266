@@ -119,7 +119,7 @@
 		end
 	end
   ```
-	### model files
+	### model files  
 	```ruby
 	# project.rb
 	class Project < ActiveRecord::Base
