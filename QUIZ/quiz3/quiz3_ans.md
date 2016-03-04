@@ -93,8 +93,8 @@
 	```
     
 9. 若今天需要為 ```Project``` 和 ```Issue``` 這兩個 Model 建立一對多的關係，請寫出實作上所需要的 migratiion 和 model 檔案
-	## Ans.
-	### migration files    
+	## Ans.  
+	### migration files  
   ```ruby
 	# add_projects.rb
 	class AddProjects < ActiveRecord::Migration
